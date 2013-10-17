@@ -89,4 +89,11 @@
         </js-module>
     </platform>
 
+    <!-- windows81 -->
+    <platform name="windows81">
+        <js-module src="src/windows8/NotificationProxy.js" name="NotificationProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
+
 </plugin>
